@@ -1,0 +1,33 @@
+
+
+.hero{
+
+  .flex{
+
+    div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .btn_medium{
+        background: linear-gradient(180deg, #62BDFC 0%, #8490FF 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 244px;
+        height: 44px;
+        color: var(--color-text-secondary);
+        font-family: Montserrat;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        line-height: 195px;
+        text-transform: uppercase;
+      }
+
+    }
+
+  }
+
+}
